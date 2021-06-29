@@ -1,0 +1,10 @@
+{
+  "name": "richbakeshop",
+  "version": "1.0.0",
+  "description": "Rich Bakes Storefront",
+  "main": "index.js",
+  "repository": "https://github.com/richbakes/richbakeshop.git",
+  "author": "rich@richbakeshop.com",
+  "license": "UNLICENCED",
+  "private": true
+}
