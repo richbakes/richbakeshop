@@ -47,15 +47,28 @@
         bottom: 0;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
+      
+      p {
+        font-size: 0.9em;
+      }
 
       img {
         max-width: 100%;
         object-fit: contain;
       }
+
+      span.ltrText {
+        unicode-bidi: bidi-override;
+        direction: rtl
+        }
     </style>
   </head>
 
   <body>
     <img src="images/richbakes.png" width="400" height="400" alt="Rich Bakes" />
+    <p>Website coming soon.</p>
+    <p>Please email inquiries and order requests to:
+      <span class="ltrText"> moc.pohsekabhcir@hcir</span>
+    </p>
   </body>
 </html>
